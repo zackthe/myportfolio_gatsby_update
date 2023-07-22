@@ -310,7 +310,7 @@ button{
     }
     
 
-.navigation-menu-list a:before
+/*.navigation-menu-list a:before
 {
     content: '{';
     left: -10px;
@@ -324,7 +324,7 @@ button{
     right: -10px;
     transform: translateX(-10px);
 
-}
+}*/
 
 .navigation-menu-list a:hover:before, .navigation-menu-list a:hover:after
 {
@@ -1272,23 +1272,23 @@ button{
 .navigation-menu-list a{
     }
      */
-
+/*
 .navigation-menu-list a:before
 {
-    content: '{';
-    left: -10px;
-    transform: translateX(10px);
+    content: '[ ';
+    left: -15px;
+    transform: translateX(20px);
 
 }
 
 .navigation-menu-list a:after
 {
-    content: '}';
-    right: -10px;
-    transform: translateX(-10px);
+    content: ' ]';
+    right: -15px;
+    transform: translateX(-20px);
 
 }
-
+*/
 .navigation-menu-list a:hover:before, .navigation-menu-list a:hover:after
 {
     opacity: 1;
@@ -1329,7 +1329,7 @@ button{
 
 .hero-profile_photo{
     /*position: relative;*/
-    border-radius: 50%;
+    border-radius: 5px;
 
 }
 

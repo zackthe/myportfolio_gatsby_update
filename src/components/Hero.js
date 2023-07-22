@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="hero-text-wrapper">
       <div className="hero-right">
       {/*<h2 className="hero-title-secondary">Hello, my name is <span className="name"> zakariae belkasmi.</span></h2>*/}
-      <h1 className="hero-title-primary">Hi, I am  zakariae belkasmi. </h1>
+      <h1 className="hero-title-primary">Hi 👋 I am  zakariae belkasmi. </h1>
       <h1 className="hero-title-primary" >I'm a <span className="web-developer"> frontend web developer.</span></h1>
       <p className="hero-paragraph">I’m a passionate self taught frontend web
     developer, I enjoy building projects with Html/css, javascript and its framework like react and gatsby. </p>

@@ -25,15 +25,19 @@ const About = () => {
         <p  className="about-me-subtitle">I'm always eager to learn and prosper within a productive environment that i can be proud to be part of. </p>
         </div>
 
+
+         
+
+
         <div>
           <StaticImage 
         className="hero-profile_photo"
-        src="C:/Users/zack/Desktop/Myportfolio-gatsby/src/assets/images/profile_photo.png"
+        src='../assets/images/profile_photo.png'
         alt="A dinosaur"
         placeholder="blurred"
         layout="fixed"
-        width={250}
-        height={250}
+        width={300}
+        height={300}
                     />
         </div>
       
