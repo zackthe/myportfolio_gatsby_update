@@ -471,7 +471,7 @@ button{
     flex-direction: column;
     padding: 4em 1.2em;
     max-width: 1600px;
-   /* height: 100vh;*/
+    height: 100vh;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
