@@ -133,8 +133,8 @@ h2{
     padding: 0.5em;
     border-radius: 25px;
     height: 50px;
-    width: 140px; 
-    font-size: 10px;
+    width: 130px; 
+    font-size: 9px;
     font-family: var(--ff-poppins);
 }
 
@@ -485,7 +485,7 @@ button{
 
 
 .hero-title-primary{
-   font-size: clamp(2rem , 1.4rem + 2vw , 4rem ) ;
+   font-size: clamp(1.3rem , 1.3rem + 2vw , 4rem ) ;
    font-family: var(--ff-poppins);
   /* font-size: clamp(3.5rem , 1.4rem + 2vw , 4rem ) ;
   /* font-family: var(--ff-fira);*/
@@ -1170,7 +1170,7 @@ button{
 } 
 
 .footer-navigation>ul>li>a>p{
-    font-family: var(--ff-text)
+    font-family: var(--ff-segoe)
 
 }
 
@@ -1283,12 +1283,12 @@ button{
 
 .navigation-menu-list a:after
 {
-    content: ' ]';
+    content: ' ]';s
     right: -15px;
     transform: translateX(-20px);
 
 }
-*/
+*/  
 .navigation-menu-list a:hover:before, .navigation-menu-list a:hover:after
 {
     opacity: 1;
