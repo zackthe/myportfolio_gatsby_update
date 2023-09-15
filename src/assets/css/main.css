@@ -116,7 +116,7 @@ a {
 
 p {
   font-weight: 400;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI" !important;
 }
 
 h1 {
@@ -414,13 +414,13 @@ button {
 .post-content p {
   font-size: calc(0.9rem + 0.2vw);
   /*font-family: 'Roboto Mono', monospace;*/
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   line-height: 30px;
 }
 
 .post-content h1 {
   font-size: calc(1.9rem + 0.6vw);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   font-weight: bold;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -484,7 +484,7 @@ button {
 
 .hero-title-secondary {
   font-size: calc(1rem);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--ff-segoe) !important;
   font-weight: 600;
 }
 
@@ -494,7 +494,7 @@ button {
   color: #cbd5e1;
   /*color: white;*/
   font-weight: 500;
-  font-family: var(--ff-segoe);
+  font-family: var(--ff-segoe) !important;
   line-height: 2rem;
 }
 
@@ -1132,7 +1132,7 @@ button {
 }
 
 .footer-navigation > ul > li > a > p {
-  font-family: var(--ff-segoe);
+  font-family: var(--ff-segoe) !important;
 }
 
 .footer-navigation > * {
@@ -1354,7 +1354,7 @@ button {
     font-weight: 600;
     /* font-size: calc(1rem + 2vw); */
     color: white;
-    font-family: var(--ff-segoe);
+    font-family: var(--ff-segoe) !important;
   }
 
   .hero-btn-contact-me {
@@ -1562,7 +1562,7 @@ button {
 .about-me-subtitle {
   /*font-size: calc(0.7rem + 1vw);*/
   max-width: 600px;
-  font-family: var(--ff-segoe);
+  font-family: var(--ff-segoe) !important;
   font-weight: normal;
   font-size: 18px;
 }
