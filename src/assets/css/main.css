@@ -453,7 +453,7 @@ button {
 }
 
 .hero-title-primary {
-  font-size: clamp(2.3rem, 1.4rem + 2vw, 4rem);
+  font-size: clamp(2.2rem, 1.4rem + 2vw, 4rem);
   font-family: var(--ff-poppins);
   /* font-size: clamp(3.5rem , 1.4rem + 2vw , 4rem ) ;
   /* font-family: var(--ff-fira);*/
@@ -470,7 +470,7 @@ button {
   background: linear-gradient(to right, #a456f0 10%, #f01a53 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: clamp(2.3rem, 1.4rem + 2vw, 4rem);
+  font-size: clamp(2.2rem, 1.4rem + 2vw, 4rem);
   font-family: var(--ff-poppins);
   /* font-size: clamp(3.5rem , 1.4rem + 2vw , 4rem ) ;
   /* font-family: var(--ff-fira);*/
