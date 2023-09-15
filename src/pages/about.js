@@ -22,9 +22,10 @@ const About = () => {
                 and gatsby to build projects.{" "}
               </p>
               <p className="about-me-subtitle">
-                I Studied at the higher school of technologie where I learned
-                basic programming and developement, then I graduated with a DUT
-                diploma.{" "}
+                I'm a graduate from the higher school of technologie Meknes
+                where I learned basic programming and developement, then I
+                decided to take a step further and specialize in the frontend
+                web developement that enjoy the most.{" "}
               </p>
               <p className="about-me-subtitle">
                 {" "}
