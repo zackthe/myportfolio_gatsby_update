@@ -986,6 +986,7 @@ button {
   color: #374151;
   max-width: 300px;
   font-size: 15px;
+  font-family: var(--ff-segoe) !important;
 }
 .project-view-project-btn {
   border: none;
