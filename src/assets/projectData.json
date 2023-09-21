@@ -5,7 +5,7 @@
     "img": "../assets/images/projects_image/portfolio.png",
     "link": "https://n2qq6r.csb.app/",
     "github": "https://github.com/zackthe/myportfolio_gatsby_v2",
-    "tag": "ReactJs/Gatsby"
+    "tag": ["GatsbyJs", "ReactJs"]
   },
   {
     "title": "Spam checker",
@@ -13,7 +13,7 @@
     "img": "../assets/images/projects_image/spamcheker.png",
     "link": "https://n2qq6r.csb.app/",
     "github": "https://github.com/zackthe/spam_chekcer",
-    "tag": "Javascript/Tailwindcss"
+    "tag": ["Html", "css", "Javascript", "Tailwindcss"]
   },
   {
     "title": "funny generator",
@@ -21,7 +21,7 @@
     "img": "../assets/images/projects_image/funny.PNG",
     "link": "https://zackthe.github.io/funny-randomness/",
     "github": "https://github.com/zackthe/funny-randomness",
-    "tag": "Jamstack"
+    "tag": ["HTML", "Css", "Javascript", "API"]
   },
   {
     "title": "Task manager",
@@ -29,15 +29,15 @@
     "img": "../assets/images/projects_image/task-manager.PNG",
     "link": " https://task-manager-c07f0.web.app/",
     "github": "https://github.com/zackthe/Card-list-app",
-    "tag": "Jamstack"
+    "tag": ["HTML", "Css", "Javascript", "API", "Firebase"]
   },
   {
-    "title": "digency",
+    "title": "Digency",
     "description": "Design agency landing page",
     "img": "../assets/images/projects_image/digency-moc.png",
     "link": "https://zackthe.github.io/Digency/",
     "github": "https://github.com/zackthe/Digency",
-    "tag": "landing page"
+    "tag": ["Html", "css", "bootstrap"]
   },
   {
     "title": "Regency",
@@ -45,6 +45,6 @@
     "img": "../assets/images/projects_image/regency.png",
     "link": "https://zackthe.github.io/real_estate/",
     "github": "https://github.com/zackthe/real_estate",
-    "tag": "Html/css"
+    "tag": ["Html", "css"]
   }
 ]

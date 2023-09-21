@@ -5,7 +5,13 @@ import {
   FaShareSquare,
   FaRegEye,
   FaGithub,
+  FaTag,
 } from "react-icons/fa";
+
+import { GoTag } from "react-icons/go";
+
+import { MdOpenInNew } from "react-icons/md";
+
 import { Link } from "gatsby";
 import projects from "../constants/projects";
 import { graphql, useStaticQuery } from "gatsby";
@@ -37,6 +43,7 @@ const Project = () => {
   const {
     allProjectDataJson: { nodes },
   } = data;
+
   console.log(nodes);
 
   return (
@@ -55,16 +62,6 @@ const Project = () => {
 
         return (
           <>
-            {/*  <div className="project-card">
-        <GatsbyImage image={gatsbyImageData} alt="image" className="project__img" />
-        <div className="project-card-wrapper">
-        <div className="project-card-title">
-        <h2 className="project-title">{title}</h2>
-        <p className="project-paragraph">{description}</p>
-        </div>
-        <a href={link} target="_blank" style={{cursor : "pointer"}} rel="noreferrer"><p className="project_details">view project</p></a>
-        </div>
-        </div>*/}
             <div className="project-card">
               <GatsbyImage
                 image={gatsbyImageData}
@@ -74,17 +71,40 @@ const Project = () => {
               <div className="project-card-wrapperr">
                 <div className="project-card-title">
                   <h2 className="project-title">{title}</h2>
-                  <div>
-                    <p className="project-stack">{tag}</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      alignContent: "center",
+                    }}
+                  >
+                    <div style={{ display: "flex", gap: ".4rem" }}>
+                      <a href={link} target="_blank">
+                        <MdOpenInNew style={{ color: "black" }} />
+                      </a>
+                      <a href={github} target="_blank">
+                        <FaGithub style={{ color: "black" }} />
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <p className="project-paragraph">{description}</p>
+
+                {nodes.map((i) => {
+                  const btn = i.tag;
+                  btn.map((j) => {
+                    console.log(<button>j</button>);
+                    <button>j</button>;
+                  });
+                })}
 
                 <div
                   style={{
                     display: "flex",
                     gap: "0.4rem",
                     alignItems: "center",
+                    marginLeft: "0",
                   }}
                 >
                   <a
@@ -93,34 +113,19 @@ const Project = () => {
                     style={{ cursor: "pointer" }}
                     rel="noreferrer"
                   >
-                    <button
-                      className="project-view-project-btn"
-                      style={{
-                        display: "flex",
-                        gap: "0.4rem",
-                        alignItems: "center",
-                      }}
-                    >
-                      View <FaRegEye />
-                    </button>
+                    {/*
+                 
+                 */}
                   </a>
-                  <a
-                    href={github}
-                    target="_blank"
-                    style={{ cursor: "pointer" }}
-                    rel="noreferrer"
-                  >
-                    <button
-                      className="project-view-project-btn"
-                      style={{
-                        display: "flex",
-                        gap: "0.4rem",
-                        alignItems: "center",
-                      }}
-                    >
-                      Github <FaGithub />
-                    </button>
-                  </a>
+                  {tag.map((i) => {
+                    return (
+                      <>
+                        <button className="project-view-project-btn">
+                          {i}
+                        </button>
+                      </>
+                    );
+                  })}
                 </div>
 
                 {/* <a href={link} target="_blank" style={{cursor : "pointer"}} rel="noreferrer"><button className="project-view-project-btn"><p className="project_details">view project</p></button></a> */}

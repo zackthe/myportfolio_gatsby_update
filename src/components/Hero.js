@@ -51,7 +51,12 @@ const Hero = () => {
           <button className="hero-btn-contact-me btn">View resume</button>
         </a>
       </div>
-      {/*<FaArrowCircleDown  color="white" fontSize="1.5em" className='arrow-down' ></FaArrowCircleDown>*/}
+
+      <FaArrowCircleDown
+        color="white"
+        fontSize="1.5em"
+        className="arrow-down"
+      ></FaArrowCircleDown>
       {/* <div className="glowing-background"></div> */}
       {/* <StaticImage 
    className="blur-cyan"

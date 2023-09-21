@@ -29,9 +29,15 @@ const About = () => {
               </p>
               <p className="about-me-subtitle">
                 {" "}
-                Currently Working at a marketing company and i'm looking for an
-                opportunity as a frontend developer where I can use my expertise
-                and bring value.{" "}
+                Currently Working at an email marketing company, where I built a
+                spam checker tool that helps email agents check and remove spam
+                words from text, also I built an automation script for
+                automating email subscription in newsletters, with nodeJs and
+                puppeetter.
+              </p>
+              <p className="about-me-subtitle">
+                Now i'm looking for an opportunity as a frontend developer where
+                I can use my expertise and bring value.{" "}
               </p>
               <p className="about-me-subtitle">
                 I'm always eager to learn and prosper within a productive

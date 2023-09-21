@@ -1,45 +1,43 @@
-import React from 'react'
-import {graphql , useStaticQuery} from 'gatsby'
-import { GatsbyImage , getImage, StaticImage  } from "gatsby-plugin-image"
-import skillData from '../constants/skillData'
-
-
+import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image";
+import skillData from "../constants/skillData";
 
 const query = graphql`
   {
-    allFile(filter: {sourceInstanceName: {eq: "images"}}, limit: 9, skip: 2) {
+    allFile(
+      filter: { sourceInstanceName: { eq: "images" } }
+      limit: 9
+      skip: 2
+    ) {
       nodes {
         relativePath
       }
     }
   }
-`
+`;
 
-const Skill = () =>{
+const Skill = () => {
+  const data = useStaticQuery(query);
+  const {
+    allFile: { nodes },
+  } = data;
 
-    const data = useStaticQuery(query);
-    const {allFile : {nodes }} = data
+  return (
+    <>
+      {skillData.map((skill) => {
+        const { text, img } = skill;
+        return (
+          <>
+            <div className="skills_card">
+              <img src={img} className="skills_icon" alt="skill-icon" />
+              <p className="skills_card-text">{text}</p>
+            </div>
+          </>
+        );
+      })}
+    </>
+  );
+};
 
-
-    return (
-        <>
-        
-        {skillData.map(skill =>{
-            const { text , img } = skill
-        return   <>
-        <div className="skills_card">
-             <img src = {img}  className="skills_icon" alt='skill-icon'/>
-             <p>{text}</p>
-        </div>     
-                 </>
-
-          })} 
-
-    
-       
-        </>
-
-    )
-}
-
-export default Skill
+export default Skill;
