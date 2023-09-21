@@ -24,17 +24,17 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          {/*
-   <StaticImage 
-      className="hero-profile_photo"
-      src="C:/Users/zack/Desktop/Myportfolio-gatsby/src/assets/images/profile_photo.png"
-      alt="myself"
-      placeholder="blurred"
-      layout="fixed"
-      width={200}
-      height={200}
-                  />
-  */}
+          {
+            <StaticImage
+              className="hero-profile_photo"
+              src="./src/assets/images/profile_photo.png"
+              alt="myself"
+              placeholder="blurred"
+              layout="fixed"
+              width={200}
+              height={200}
+            />
+          }
 
           {/*<span className="green-icon"></span>*/}
         </div>

@@ -515,7 +515,7 @@ button {
 }
 
 .hero-btn-contact-me:hover {
-  background-color: #200726;
+  background-color: var(--clr-rose2);
 }
 
 .btn-grad {
@@ -1055,6 +1055,10 @@ button {
   font-size: 0.7em;
 }
 
+.project-view-project-btn:hover {
+  background-color: var(--clr-rose2);
+}
+
 .project-stack {
   color: white;
   margin-bottom: 0;
@@ -1591,7 +1595,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
   width: 80%;
   margin: 0 auto;
-  max-width: 850px;
+  max-width: 800px;
 }
 
 .about-me {
@@ -1617,7 +1621,7 @@ button {
 }
 
 .about-me-subtitle {
-  font-size: calc(0.8rem + 0.3vw);
+  font-size: calc(0.8rem + 0.2vw);
   max-width: 800px;
   font-family: var(--ff-roboto) !important;
   font-weight: normal;
