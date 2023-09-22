@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import socialLinks from "../constants/social_links";
 import { StaticImage } from "gatsby-plugin-image";
 import { FaArrowCircleDown } from "react-icons/fa";
+import "animate.css";
 
 const Hero = () => {
   return (
@@ -12,8 +13,8 @@ const Hero = () => {
           <h2 className="hero-title-secondary">
             Hello, my name is <span className="name">:</span>
           </h2>
-          <h1 className="hero-title-primary">zakariae belkasmi. </h1>
-          <h1 className="hero-title-primary">
+          <h1 className="hero-title-primary ">zakariae belkasmi. </h1>
+          <h1 className="hero-title-primary animate__animated animate__headShake">
             I'm a{" "}
             <span className="web-developer"> frontend web developer.</span>
           </h1>

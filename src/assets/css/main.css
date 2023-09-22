@@ -169,6 +169,8 @@ button {
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     width: 75%;
     margin: 0 auto;   */
+  padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 .hero-profile_photo {
@@ -1171,9 +1173,9 @@ button {
 .footer-btn {
   /* background-color: var(--clr-rose2);*/
   font-size: clamp(14px, 2vw, 16px);
-  width: 180px;
+  width: 150px;
   color: white;
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-roboto);
   padding: 0;
   background: rgb(18, 31, 207);
   background: linear-gradient(
@@ -1181,6 +1183,10 @@ button {
     rgba(18, 31, 207, 1) 0%,
     rgba(207, 21, 18, 1) 100%
   );
+}
+
+.footer-btn:hover {
+  transform: scale(1.1);
 }
 
 .footer-navigation {
@@ -1210,6 +1216,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-items: center;
   grid-gap: 2em;
+  padding: 2em;
 }
 .footer-social-links {
   font-size: 20px;
@@ -1600,6 +1607,8 @@ button {
   width: 80%;
   margin: 0 auto;
   max-width: 800px;
+  /* padding-top: 3em;
+  padding-bottom: 3em;*/
 }
 
 .about-me {
