@@ -3,8 +3,8 @@
     "title": "My portfolio",
     "description": "My own website and portfolio I built from scratch using gatsby a static site generator, where I share my projects and journey",
     "img": "../assets/images/projects_image/portfolio.png",
-    "link": "https://n2qq6r.csb.app/",
-    "github": "https://github.com/zackthe/myportfolio_gatsby_v2",
+    "link": "https://zakariaebelkasmi.netlify.app/",
+    "github": "https://github.com/zackthe/myportfolio_gatsby_update",
     "tag": ["GatsbyJs", "ReactJs"]
   },
   {
@@ -24,6 +24,14 @@
     "tag": ["HTML", "Css", "Javascript", "API"]
   },
   {
+    "title": "Portfolio_V1",
+    "description": "My old portfolio website",
+    "img": "../assets/images/projects_image/portfolio_V1.png",
+    "link": "https://belkasmizakariae.netlify.app/",
+    "github": "https://github.com/zackthe/myportfolio",
+    "tag": ["Jekyll", "Html", "css", "Javascript"]
+  },
+  {
     "title": "Task manager",
     "description": "Task manager website built with javascript and firebase",
     "img": "../assets/images/projects_image/task-manager.PNG",
@@ -38,13 +46,5 @@
     "link": "https://zackthe.github.io/Digency/",
     "github": "https://github.com/zackthe/Digency",
     "tag": ["Html", "css", "bootstrap"]
-  },
-  {
-    "title": "Regency",
-    "description": "Real estate landing page",
-    "img": "../assets/images/projects_image/regency.png",
-    "link": "https://zackthe.github.io/real_estate/",
-    "github": "https://github.com/zackthe/real_estate",
-    "tag": ["Html", "css"]
   }
 ]

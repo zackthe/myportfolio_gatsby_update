@@ -6,6 +6,8 @@ import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
+import Jobs from "../components/Jobs";
+
 const IndexPage = () => {
   return (
     <>
@@ -13,6 +15,7 @@ const IndexPage = () => {
       <Layout>
         {/*<Navbar /> */}
         <Hero />
+        {/*<Jobs />*/}
         {/* <Skills />*/}
         <Projects />
       </Layout>
