@@ -23,15 +23,15 @@ const About = () => {
               </p>
               <p className="about-me-subtitle">
                 I'm a graduate from the higher school of technologie Meknes
-                where I learned basic programming and developement, then I
-                decided to take a step further and specialize in the frontend
+                where I learned basic programming and developement.
+                I decided to take a step further and specialize in the frontend
                 web developement that enjoy the most.{" "}
               </p>
               <p className="about-me-subtitle">
                 {" "}
-                Currently Working at an email marketing company, where I built a
+                Currently Working at an email marketing company, where I helped building a
                 spam checker tool that helps email agents check and remove spam
-                words from text, also I built an automation script for
+                words from their content, also helped building an automation script for
                 automating email subscription in newsletters, with nodeJs and
                 puppeetter.
               </p>
